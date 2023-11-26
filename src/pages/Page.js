@@ -11,7 +11,7 @@ import photo from '../assets/Photo.png';
 export default function Page() {
   return (
     <div className="landing">
-      <div className="secound_block">
+      <section className="secound_block">
         <div className="text">
           <p className="important">
             Главная — <span className="contacts_small">Контакты</span>
@@ -20,8 +20,8 @@ export default function Page() {
         <div className="title">
           <h2>Контакты</h2>
         </div>
-      </div>
-      <div className="third">
+      </section>
+      <section className="third">
         <div className="map"></div>
         <div className="info">
           <div className="icon">
@@ -108,8 +108,8 @@ export default function Page() {
             </button>
           </div>
         </div>
-      </div>
-      <div className="fourth">
+      </section>
+      <section className="fourth">
         <img src={elem} alt="" className="element" />
         <img src={elemB} alt="" className="elementB" />
         <img src={elemC} alt="" className="elementC" />
@@ -118,8 +118,8 @@ export default function Page() {
           <div className="bar2" width={70}></div>
           <progress max="100">25%</progress>
         </div>
-      </div>
-      <div className="fifth">
+      </section>
+      <section className="fifth">
         <div className="title_and_subscrible">
           <h2>Наша команда</h2>
           <div className="subscrible">
@@ -145,8 +145,8 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="sixth">
+      </section>
+      <section className="sixth">
         <div className="requisites">
           <h2>Реквизиты</h2>
           <p className="typography">
@@ -353,7 +353,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
