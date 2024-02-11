@@ -119,7 +119,6 @@ export default function Page() {
         <div className="progressA">
           <div className="bar1" width={30}></div>
           <div className="bar2" width={70}></div>
-          <progress max="100">25%</progress>
         </div>
       </section>
       <section className="fifth">
@@ -152,6 +151,7 @@ export default function Page() {
                 <div className="position">
                   <p>Офис-менеджер</p>
                 </div>
+<<<<<<< HEAD
               </div>
             </div>
             <div className="team_card_three">
@@ -173,9 +173,36 @@ export default function Page() {
                 </div>
                 <div className="position">
                   <p>Руководитель отдела продаж</p>
+=======
+              </div>
+            </div>
+            <div className="team_card_three">
+              <img src={buhg} alt="" className="buhg" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Алазрева Валерия Максимовна</h3>
+                </div>
+                <div className="position">
+                  <p>Бухгалтер</p>
+>>>>>>> df26032e9c2edb369e361d14652e04dc6c8dc8db
                 </div>
               </div>
             </div>
+            <div className="team_card_four">
+              <img src={manag} alt="" className="manag" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Наумов Илья Семёнович</h3>
+                </div>
+                <div className="position">
+                  <p>Руководитель отдела продаж</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="progressB">
+            <div className="bar1" width={30}></div>
+            <div className="bar2" width={70}></div>
           </div>
         </div>
         <div className="progressB">
