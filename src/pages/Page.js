@@ -175,17 +175,6 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="team_card_four">
-              <img src={manag} alt="" className="manag" />
-              <div className="name_and_position">
-                <div className="name">
-                  <h3 className="full_name">Наумов Илья Семёнович</h3>
-                </div>
-                <div className="position">
-                  <p>Руководитель отдела продаж</p>
-                </div>
-              </div>
-            </div>
           </div>
           <div className="progressA">
             <div className="bar1" width={30}></div>
@@ -311,7 +300,6 @@ export default function Page() {
               <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
             </svg>
           </div>
-
           <div className="sevenRow">
             <div className="sevenRow_left_cell">
               <p className="typography_cell">Корреспондентский счет</p>
@@ -387,16 +375,15 @@ export default function Page() {
               <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
             </svg>
           </div>
-
-          <div className="download">
-            <div className="text_and_icon">
-              <button className="text_and_icon_button">
-                <img src={download} alt="" className="" />
-              </button>
-              <div className="text_and_icon_text">
-                <h3>Скачать реквизиты</h3>
-                <p>Скачать pdf файл</p>
-              </div>
+        </div>
+        <div className="download">
+          <div className="text_and_icon">
+            <button className="text_and_icon_button">
+              <img src={download} alt="" className="" />
+            </button>
+            <div className="text_and_icon_text">
+              <h3>Скачать реквизиты</h3>
+              <p>Скачать pdf файл</p>
             </div>
           </div>
         </div>
