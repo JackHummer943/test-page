@@ -263,13 +263,21 @@ color: #FFFFFF;
   height: 252px;
   left: 400px;
 }
+<<<<<<< HEAD
+/* .progress {
+=======
 .progressA {
+>>>>>>> 4422ee2a9ec480a1d0092c723cf47ebf6c0bcb5b
   position: relative;
   display: block;
   width: 100%;
   height: 15px;
   margin-top: 20px;
   padding: 0;
+<<<<<<< HEAD
+} */
+.progress div {
+=======
 }
 .progressB {
   position: relative;
@@ -280,6 +288,7 @@ color: #FFFFFF;
   padding: 0;
 }
 .progressA div {
+>>>>>>> 4422ee2a9ec480a1d0092c723cf47ebf6c0bcb5b
   position: absolute;
   top: 0;
   left: 0;
