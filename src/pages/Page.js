@@ -7,7 +7,10 @@ import download from '../assets/download.png';
 import elem from '../assets/elem.png';
 import elemB from '../assets/ElemB.png';
 import elemC from '../assets/ElemC.png';
-import photo from '../assets/Photo.png';
+import photoDirector from '../assets/Photo.png';
+import offManag from '../assets/off_manag.png';
+import buhg from '../assets/buhg.png';
+import manag from '../assets/manag.png';
 export default function Page() {
   return (
     <div className="landing">
@@ -113,7 +116,7 @@ export default function Page() {
         <img src={elem} alt="" className="element" />
         <img src={elemB} alt="" className="elementB" />
         <img src={elemC} alt="" className="elementC" />
-        <div className="progress">
+        <div className="progressA">
           <div className="bar1" width={30}></div>
           <div className="bar2" width={70}></div>
           <progress max="100">25%</progress>
@@ -129,21 +132,55 @@ export default function Page() {
             </p>
           </div>
           <div className="list">
-            <img src={photo} alt="" className="" />
-            <div className="name_and_position">
-              <div className="name">
-                <h3 className="full_name">Ворончихин Сергей Вячеславович</h3>
+            <div className="team_card_one">
+              <img src={photoDirector} alt="" className="photoDirector" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Ворончихин Сергей Вячеславович</h3>
+                </div>
+                <div className="position">
+                  <p>Директор</p>
+                </div>
               </div>
-              <div className="position">
-                <p>Директор</p>
+            </div>
+            <div className="team_card_two">
+              <img src={offManag} alt="" className="office_manager" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Ситникова Александра Константиновна</h3>
+                </div>
+                <div className="position">
+                  <p>Офис-менеджер</p>
+                </div>
               </div>
-              <div className="progress">
-                <div className="bar1" width={30}></div>
-                <div className="bar2" width={70}></div>
-                <progress max="100">25%</progress>
+            </div>
+            <div className="team_card_three">
+              <img src={buhg} alt="" className="buhg" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Алазрева Валерия Максимовна</h3>
+                </div>
+                <div className="position">
+                  <p>Бухгалтер</p>
+                </div>
+              </div>
+            </div>
+            <div className="team_card_four">
+              <img src={manag} alt="" className="manag" />
+              <div className="name_and_position">
+                <div className="name">
+                  <h3 className="full_name">Наумов Илья Семёнович</h3>
+                </div>
+                <div className="position">
+                  <p>Руководитель отдела продаж</p>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="progressB">
+          <div className="bar1" width={30}></div>
+          <div className="bar2" width={70}></div>
         </div>
       </section>
       <section className="sixth">
