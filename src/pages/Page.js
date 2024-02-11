@@ -176,10 +176,10 @@ export default function Page() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="progressB">
-          <div className="bar1" width={30}></div>
-          <div className="bar2" width={70}></div>
+          <div className="progressB">
+            <div className="bar1" width={30}></div>
+            <div className="bar2" width={70}></div>
+          </div>
         </div>
       </section>
       <section className="sixth">
