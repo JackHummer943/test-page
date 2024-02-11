@@ -119,7 +119,6 @@ export default function Page() {
         <div className="progressA">
           <div className="bar1" width={30}></div>
           <div className="bar2" width={70}></div>
-          <progress max="100">25%</progress>
         </div>
       </section>
       <section className="fifth">
