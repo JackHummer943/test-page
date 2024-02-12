@@ -259,9 +259,7 @@ color: #FFFFFF;
   height: 252px;
 }
 .elementB {
-  position: absolute;
-  height: 252px;
-  left: 400px;
+  display: none;
 }
 .progressA {
   position: relative;
@@ -340,27 +338,21 @@ text-align: left;
   padding-top: 0px;
 }
 .team_card_two {
-position: absolute;
-left: 400px;
-top: 1580px;
+  display: none;
 }
 .office_manager {
   width: 351px;
   height: 404px;
 }
 .team_card_three {
-  position: absolute;
-  left: 800px;
-  top: 1580px;
+  display: none;
   }
 .buhg {
   width: 351px;
   height: 404px;
 }
 .team_card_four {
-  position: absolute;
-  left: 1200px;
-  top: 1580px;
+  display: none;
 }
 .manag {
   width: 351px;
@@ -377,7 +369,6 @@ top: 1580px;
 }
 .table {
   width: 351px;
-  /* height: 744px; */
 }
 .oneRow {
   width: 351px;
@@ -386,7 +377,7 @@ top: 1580px;
 .typography_cell {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height:20px;
   text-align: left;
   color:#282828;
@@ -396,7 +387,7 @@ top: 1580px;
     height: 40px;
 }
 
-.oneRow_left_cell {
+.cell {
   width: 162px;
   height: 40px;
 
@@ -456,7 +447,6 @@ top: 2570px;
 width: 161px;
 height: 20px;
 }
-
 .fourRow {
   width: 161px;
   height: 20px;
@@ -568,10 +558,51 @@ top: 2940px;
 width: 161px;
 height: 20px;
 }
+.lineOne {
+  position:absolute;
+  top: 2440px;
+}
+.lineTwo {
+  position:absolute;
+  top: 2495px;
+}
+.lineThree {
+  position:absolute;
+  top: 2535px;
+}
+.lineFour {
+  position:absolute;
+  top: 2580px;
+}
+.lineFive {
+  position:absolute;
+  top: 2625px;
+}
+.lineSix {
+  position:absolute;
+  top: 2675px;
+}
+.lineSeven {
+  position:absolute;
+  top: 2715px;
+}
+.lineEight {
+  position:absolute;
+  top: 2760px;
+}
+.lineNine {
+  position:absolute;
+  top: 2800px;
+}
+.lineTen {
+  position:absolute;
+  top: 2870px;
+}
 .download {
+  background-color: #FAFAFA;
   width: 351px;
   height: 88px;
-  padding: 16px;
+  margin-top: 40px;
 }
 .text_and_icon {
   width: 280px;
@@ -584,12 +615,10 @@ height: 20px;
   background-color: #E5F6EE;
 }
 .text_and_icon_text {
-  position: absolute;
-  top: 3030px;
-  left: 130px;
+  position: relative;
+  bottom: 55px;
+  left: 110px;
 }
-
-
 }
 
 @media (min-width: 376px) and (max-width: 769px) { 
@@ -842,9 +871,9 @@ height: 20px;
     color: #FFFFFF;
     }
     .fourth {
-      width: 768px;
-      height: 444px;
+    height: 444px;
      margin: 35px;  
+     margin-right: 0px;
     }
     .element {
       width: 552px;
@@ -886,13 +915,14 @@ height: 20px;
     .progressA .bar2 {     
       left: 275px;
       background: #F2F2F2;
-      width: 450px;
+      width: 425px;
       height: 10px;
     }
     .fifth {
       width: 768px;
       height: 1254px;
       margin: 35px;
+      margin-right: 0px;
     }
     .title_and_subscrible {
       height: 1254px;
@@ -980,4 +1010,242 @@ height: 20px;
     .sixth {
       margin: 35px;
     }
+    table.table{
+      width: 100%;
+      border-collapse:collapse;
+      border-spacing:0;
+      height: auto;
+    }
+    table.table,table.table td, table.table th {
+      border: 1px solid #D9D9D9;
+    }
+    table.table td,table.table th {
+      padding: 3px;
+      height: 35px;
+    }
+    table.table th {
+      background: #347c99; 
+      color: #fff; 
+      font-weight: normal;
+    }
+    .oneRow {
+      width: 351px;
+      height: 40px;
+  }
+
+  .typography_cell {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color:#282828;
+  }
+  
+  .cell {
+    height: 40px;
+    margin: 15px;
+    /* margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+  }
+  .oneRow_right_cell {
+
+    left: 180px;
+    width: 161px;
+    height: 20px;
+  }
+  .twoRow {
+    width: 351px;
+    height: 60px;
+  }
+  
+  .twoRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .twoRow_right_cell {
+  left: 180px;
+  height: 20px;
+  }
+  .threeRow {
+    width: 351px;
+    height: 20px;
+  }
+  
+  .threeRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .threeRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  .threeRow {
+    width: 351px;
+    height: 20px;
+  }
+  
+  .threeRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .threeRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .fourRow {
+    width: 161px;
+    height: 20px;
+  }
+  .fourRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .fourRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .fiveRow {
+    width: 161px;
+    height: 20px;
+  }
+  .fiveRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .fiveRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .sixRow {
+    width: 371px;
+    height: 40px;
+  }
+  .sixRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .sixRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .sevenRow {
+    width: 371px;
+    height: 40px;
+  }
+  .sevenRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .sevenRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .eightRow {
+    width: 371px;
+    height: 40px;
+  }
+  .eghtRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .eghtRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .nineRow {
+    width: 371px;
+    height: 40px;
+  }
+  .nineRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .nineRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+  
+  .tenRow {
+    width: 371px;
+    height: 40px;
+  }
+  .tenRow_left_cell {
+  width: 162px;
+  height: 40px;
+  }
+  .tenRow_right_cell {
+  left: 180px;
+  width: 161px;
+  height: 20px;
+  }
+
+  .lineOne {
+   display: none;
+  }
+  .lineTwo {
+    display: none;
+  }
+  .lineThree {
+    display: none;
+  }
+  .lineFour {
+    display: none;
+  }
+  .lineFive {
+    display: none;
+  }
+  .lineSix {
+    display: none;
+  }
+  .lineSeven {
+    display: none;
+  }
+  .lineEight {
+    display: none;
+  }
+  .lineNine {
+    display: none;
+  }
+  .lineTen {
+    display: none;
+  }
+  .download {
+    background-color: #FAFAFA;
+    width: 700px;
+    height: 88px;
+    margin-top: 40px;
+  }
+  .text_and_icon {
+    height: 56px;
+  }
+  .text_and_icon_button {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    left: 10px;
+    bottom: 10px;
+    background-color: #E5F6EE;
+  }
+  .text_and_icon_text {
+    position: relative;
+    bottom: 70px;
+    left: 110px;
+  }
 }
+

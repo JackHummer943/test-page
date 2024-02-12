@@ -191,8 +191,244 @@ export default function Page() {
             sit malesuada in praesent ac nisi convallis. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div className="table">
-          <div className="oneRow">
+
+        <table className="table">
+          <tbody>
+            <tr>
+              <td>
+                <div className="cell">
+                  <p className="typography_cell">Полное наименование</p>
+                </div>
+              </td>
+              <td>
+                <div className="cell">
+                  <p>Металл-Маркет</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineOne">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">Юридический адрес</p>
+                </div>
+              </td>
+              <td>
+                <div className="cell">
+                  <p>123456, Россия, Москва, ул. Ленина, 145а, 801</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineTwo">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                <div className="cell">
+                  <p className="typography_cell">ИНН</p>
+                </div>
+              </td>
+              <td>
+                <div className="cell">
+                  <p>1234567890</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineThree">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                <div className="cell">
+                  <p className="typography_cell">КПП</p>
+                </div>
+              </td>
+              <td>
+                <div className="cell">
+                  <p>123456789</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineFour">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                <div className="cell">
+                  <p className="typography_cell">ОГРН</p>
+                </div>
+              </td>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p>1234567890</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineFive">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">Расчетный счет</p>
+                </div>
+              </td>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p>12345678909876543210</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineSix">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">Корреспондентский счет</p>
+                </div>
+              </td>
+              <td>
+                <div className="cell">
+                  <p>12345678909876543210</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineSeven">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">БИК</p>
+                </div>
+              </td>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p>12345678909876</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineEight">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">Банк</p>
+                </div>
+              </td>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p>ПАО «Сбербанк»</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineNine">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+            <tr>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p className="typography_cell">Директор</p>
+                </div>
+              </td>
+              <td>
+                {' '}
+                <div className="cell">
+                  <p>Лебедев Кирилл Александрович</p>
+                </div>
+              </td>
+            </tr>
+            <div className="lineTen">
+              <svg
+                width="351"
+                height="1"
+                viewBox="0 0 351 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
+              </svg>
+            </div>
+          </tbody>
+        </table>
+        {/* <div className="oneRow">
             <div className="oneRow_left_cell">
               <p className="typography_cell">Полное наименование</p>
             </div>
@@ -374,8 +610,8 @@ export default function Page() {
               xmlns="http://www.w3.org/2000/svg">
               <line y1="0.5" x2="351" y2="0.5" stroke="#D9D9D9" />
             </svg>
-          </div>
-        </div>
+          </div> */}
+
         <div className="download">
           <div className="text_and_icon">
             <button className="text_and_icon_button">
